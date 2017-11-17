@@ -1,0 +1,206 @@
+<!DOCTYPE html>
+<html lang="es">
+	<head>
+		<title>Home Banana GEST</title>
+		<link rel="stylesheet" href="css/bootstrap.min.css" >
+		<style>
+
+    		#banner
+    		{
+    		    width: 1000px;
+    		}
+		
+
+    		/*   cambio   de  color   de los  botones  */
+    		.btn.btn-primary    
+    		{
+    			background-color  :#99a534;
+    			padding-right: 50px;
+    		}
+
+
+			#email,#pass
+			{
+ 				padding-top: 20px;
+				padding-left: 30px;
+			}
+
+			#formulario
+			{
+				padding-left: 250px;
+				height:100px;
+			}
+			
+			#nombre2,#email2,#contraseña2
+			{
+			  width:900px;  
+			  height: 60px;  
+			}
+		</style>
+	</head>
+
+	<body>
+
+		<header>
+         	<!-- nombre del  formato -->      
+            <div class="container-fluid" style="background-color:white;border:2px solid  #83A0F5;"  >  <!--login del usuario en el encabezado-->  
+            	<div class="row">
+                	<div class="col-md-1">
+                    	<img src="images\logo.jpg" class="img-rounded" alt="Cinque Terre" width="100" height="80">
+               	 	</div>
+
+                  	<div class="col-md-10" >
+                    	<form  class="form-inline" role="form"  id="formullog"    method="post"  >
+                        	<div class="col-md-5">
+								<div class="input-group" id="email">
+                                	<div class="col-md-2">
+                                    	<label class=" control-label" for="Name">usuario</label>
+                                	</div>
+                                    <span class="input-group-addon"><i class="glyphicon glyphicon-user"></i></span>
+                                    <input  type="email"  id  ="email2" class="form-control" name="email" value="" placeholder="Email Address">                                        
+                                </div>
+                            </div>
+                               
+                            <div class="col-md-5">
+                            	<div class="input-group" id ="pass">
+                            		<div class="col-md-2">
+                                    	<label class="control-label" for="Name"  style="margin-right:30px;">contraseña</label> 
+                                    </div>
+                                    <span class="input-group-addon"><i class="glyphicon glyphicon-lock"></i></span>
+                                    <input   id ="contra" type="password" class="form-control" name="password" value="" placeholder="Password">                                        
+                                </div>
+                            </div>
+                            <div class="col-md-1">
+                            	<div class="row">
+                                	<div class="col-sm-5"> </div>
+                                    <div class="col-sm-2"> 
+                                    	<button id ="boton1"  type="submit" class="btn btn-primary">ingresar </button>
+                                    </div>
+                                    <div class="col-sm-5"></div>
+                                </div>
+                                           
+                                      
+                            </div>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </header>
+
+        <!---  en este contenedeor  ira la imagen -->
+        <div id="contenedor2" class="container-fluid"  style="background-color:#FFFFFF ;"    >
+        	<div class="row"> 
+            	<div class="col-md-3">
+                </div>
+				<div class="col-md-8" id="banner">
+					<img src="images\bienve.jpg" class="img-rounded" >
+                </div>
+                <div class="col-md-3">
+				</div>
+            </div>
+
+
+        <!---  en este contenedeor  ira la imagen -->   
+        </div>
+
+        <div class="row"> 
+        	<div class="col-md-2">
+            	<div class="col-md-8" id="forma">
+                	<div id="contenedor" class="container-fluid" >
+   						<form class="form" id="formulario" method="post"  action="singin(bootstrap.html"  style="background-color:white; height :350px; border:2px solid #4F82E0;">
+                                                
+                                                
+                                                <!-- nombre del  formato  -->
+                                                <legend>Register</legend>
+                                                
+                                                <!-- nombre -->
+                                                <div class="form-group" id="nombre2">
+                                                  <label class="col-md-4 control-label" id  =name for="Name">Usuario</label>  
+                                                  <div class="col-md-4">
+                                                  <input id="nombre" name="nom" type="text"  class="form-control input-md"  required="" >
+                                                    
+                                                  </div>
+                                                </div>
+                                                
+                                                <!--   correo -->
+                                                <div class="form-group" id="email2">
+                                                  <label class="col-md-4 control-label" id ="correo" for="Email ">Correo</label>  
+                                                  <div class="col-md-4">
+                                                  <input id="correo2" name="Email" type="email" placeholder="Email Address" class="form-control input-md" required="">
+                                                    
+                                                  </div>
+                                                </div>
+
+                                                   <!-- Password input-->
+                                                <div class="form-group" id="contrasena2">
+                                                        <label class="col-md-4 control-label" for="password">Contraseña</label>
+                                                        <div class="col-md-4">
+                                                          <input id="password" name="password"   type="password" placeholder="" class="form-control input-md" required="">
+                                                          
+                                                        </div>
+                                                      </div>
+                                                      
+                                                                                    
+                                                      
+                                                      <!--  boton para  loguearse y mandar formulario a  base de datos -->
+                                                      <div class="form-group"  >
+                                                        <label class="col-md-4 control-label" for="Submit"></label>
+                                                        <div class="col-md-4">
+                                                          <button id="boton2" name="Submit" class="btn btn-primary">enviar</button>
+                                                        </div>
+                                                      </div>
+                                              
+                                             </form>
+                        </div>
+                        <div class="col-md-2">
+
+
+                            </div>
+                </div>
+           
+
+          
+                    
+                   
+               
+                </div> 
+
+	</body>
+</html>
+
+<html lang="es">
+
+
+   
+    
+
+
+
+    <body>
+
+
+
+
+
+
+
+                </body>   
+                
+                
+             
+     
+<footer>
+
+ <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script type="text/javascript" src="js/jquery-3.2.1.min.js"></script>
+    <script type="text/javascript" src="js/popper.min.js"></script>
+    <script type="text/javascript" src="js/bootstrap.min.js"></script>
+    <script type="text/javascript" src="js/main.js"> </script>
+
+   
+</footer>
+
+
+
+
+</html>

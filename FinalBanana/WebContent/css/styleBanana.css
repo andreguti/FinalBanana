@@ -1,0 +1,107 @@
+.header
+{
+border: 4px solid #546a7b;
+}
+
+.fa-home, .fa-plus-square, .fa-user
+{
+    margin-top: 2%;
+    color: #546a7b;
+}
+
+#logo
+{
+    width: 56%;
+    height: 63px;
+    margin-top: 2%;
+}
+
+.navbar
+{
+    margin-top: 2%;
+}
+
+.fa-plus-circle
+{
+    color: #62929e;
+}
+
+#agregarNuevo
+{
+    text-align: center;
+    border: 3px solid #79A55B;
+    margin-top: 20%;
+    width: 100%;
+    height: 100%;
+}
+
+#agregarNuevo p
+{
+    font-family: Helvetica, Arial, sans-serif;
+    font-size: 36px;
+}
+
+#ver1
+{
+    border: 3px solid #79A55B;
+    width: 100%;
+    height: 150%;
+    margin-top: 10%;
+    font-family: Helvetica, Arial, sans-serif;
+    font-size: 36px;
+    text-align: center;
+}
+
+#ver1 a
+{
+   color: black;
+}
+
+#ver2
+{
+    border: 3px solid #79A55B;
+    width: 100%;
+    height: 150%;
+    margin-top: 10%;
+    font-family: Helvetica, Arial, sans-serif;
+    font-size: 36px;
+    text-align: center;
+}
+
+#ver2 a
+{
+   color: black;
+}
+
+#ver3
+{
+    border: 3px solid #79A55B;
+    width: 100%;
+    height: 90%;
+    margin-top: 10%;
+    font-family: Helvetica, Arial, sans-serif;
+    font-size: 36px;
+    text-align: center;
+}
+
+#ver3 a
+{
+   color: black;
+}
+
+#agregarNuevo2
+{
+    text-align: center;
+    border: 3px solid #79A55B;
+    width: 100%;
+    height: 90%;
+    margin-top: 10%;
+    font-family: Helvetica, Arial, sans-serif;
+    font-size: 36px;
+}
+
+#agregarNuevo2 p
+{
+    font-family: Helvetica, Arial, sans-serif;
+    font-size: 36px;
+}
